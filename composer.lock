@@ -1,11 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "b39216a2bf9f98992e76825b9ede0877",
-    "content-hash": "e50c7361e5213c44805ab75ec667d42c",
+    "content-hash": "a40be80d34f4d58128fe7e21ab1e9810",
     "packages": [
         {
             "name": "corneltek/cachekit",
@@ -47,7 +46,7 @@
             ],
             "description": "General cache interface",
             "homepage": "http://github.com/c9s/CacheKit",
-            "time": "2013-12-29 15:53:59"
+            "time": "2013-12-29T15:53:59+00:00"
         },
         {
             "name": "corneltek/class-template",
@@ -90,7 +89,7 @@
             ],
             "description": "Class template Utilities",
             "homepage": "http://github.com/c9s/ClassTemplate",
-            "time": "2015-09-06 05:04:14"
+            "time": "2015-09-06T05:04:14+00:00"
         },
         {
             "name": "corneltek/cliframework",
@@ -147,7 +146,7 @@
                 "getopt",
                 "zsh"
             ],
-            "time": "2015-10-17 03:39:03"
+            "time": "2015-10-17T03:39:03+00:00"
         },
         {
             "name": "corneltek/codegen",
@@ -190,7 +189,7 @@
             ],
             "description": "PHP Code Generation Library",
             "homepage": "http://github.com/c9s/CodeGen",
-            "time": "2015-10-21 14:29:25"
+            "time": "2015-10-21T14:29:25+00:00"
         },
         {
             "name": "corneltek/curlkit",
@@ -223,7 +222,7 @@
                 "MIT"
             ],
             "description": "Curl Kit",
-            "time": "2015-06-22 11:24:26"
+            "time": "2015-06-22T11:24:26+00:00"
         },
         {
             "name": "corneltek/getoptionkit",
@@ -265,7 +264,7 @@
             ],
             "description": "Powerful command-line option toolkit",
             "homepage": "http://github.com/c9s/GetOptionKit",
-            "time": "2015-10-02 07:53:43"
+            "time": "2015-10-02T07:53:43+00:00"
         },
         {
             "name": "corneltek/pearx",
@@ -308,7 +307,7 @@
             ],
             "description": "PEAR channel client",
             "homepage": "http://github.com/c9s/PEARX",
-            "time": "2014-11-02 05:25:35"
+            "time": "2014-11-02T05:25:35+00:00"
         },
         {
             "name": "corneltek/serializerkit",
@@ -338,7 +337,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-12-01 14:32:14"
+            "time": "2013-12-01T14:32:14+00:00"
         },
         {
             "name": "corneltek/universal",
@@ -380,7 +379,7 @@
             ],
             "description": "Universal library for PHP",
             "homepage": "http://github.com/c9s/Universal",
-            "time": "2015-10-07 10:11:05"
+            "time": "2015-10-07T10:11:05+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -447,7 +446,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2014-12-20 21:24:13"
+            "time": "2014-12-20T21:24:13+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -493,7 +492,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2015-09-11 15:10:35"
+            "time": "2015-09-11T15:10:35+00:00"
         },
         {
             "name": "symfony/class-loader",
@@ -543,7 +542,7 @@
             ],
             "description": "Symfony ClassLoader Component",
             "homepage": "https://symfony.com",
-            "time": "2015-08-26 17:56:37"
+            "time": "2015-08-26T17:56:37+00:00"
         },
         {
             "name": "symfony/finder",
@@ -592,38 +591,114 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2015-09-19 19:59:23"
+            "time": "2015-09-19T19:59:23+00:00"
         },
         {
-            "name": "symfony/process",
-            "version": "v2.7.5",
+            "name": "symfony/polyfill-php80",
+            "version": "v1.31.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/process.git",
-                "reference": "b27c8e317922cd3cdd3600850273cf6b82b2e8e9"
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/b27c8e317922cd3cdd3600850273cf6b82b2e8e9",
-                "reference": "b27c8e317922cd3cdd3600850273cf6b82b2e8e9",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
+                "php": ">=7.2"
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "2.7-dev"
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-09T11:45:10+00:00"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v5.4.46",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "01906871cb9b5e3cf872863b91aba4ec9767daf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/01906871cb9b5e3cf872863b91aba4ec9767daf4",
+                "reference": "01906871cb9b5e3cf872863b91aba4ec9767daf4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-php80": "^1.16"
+            },
+            "type": "library",
+            "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Process\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -639,9 +714,26 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony Process Component",
+            "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
-            "time": "2015-09-19 19:59:23"
+            "support": {
+                "source": "https://github.com/symfony/process/tree/v5.4.46"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-11-06T09:18:28+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -691,7 +783,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-09-13 17:26:34"
+            "time": "2015-09-13T17:26:34+00:00"
         },
         {
             "name": "twig/twig",
@@ -752,7 +844,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-10-13 07:07:02"
+            "time": "2015-10-13T07:07:02+00:00"
         }
     ],
     "packages-dev": [
@@ -780,7 +872,7 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-02-28 04:55:50"
+            "time": "2014-02-28T04:55:50+00:00"
         }
     ],
     "aliases": [],
@@ -788,12 +880,12 @@
     "stability-flags": {
         "corneltek/cliframework": 0,
         "corneltek/pearx": 20,
-        "symfony/process": 0,
         "symfony/yaml": 0,
         "corneltek/phpunit-testmore": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
